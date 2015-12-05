@@ -4,16 +4,16 @@
   </UIDEF>
   <LAYOUT>
     <file name="XML_MAINWND" path="xml\dlg_main.xml"  />
-      </LAYOUT>
+  </LAYOUT>
   <IMG>
-  <file name="IMG_BG_LIGHT_LEVEL"  path="image\bg_light-level_02.png"    />
-   <file name="IMG_BG_MAIN"  path="image\bg_02.png"    />
-   <file name="IMG_BG_SOFTMGR"  path="image\360SoftMgr.png"    />
-   <file name="IMG_BG_DESKTOP"  path="image\pic_360Desktop.png"    />
-   <file name="IMG_BG_DIAGNOSCAN"  path="image\pic_360DiagnoseScan.png"    />
-   <file name="IMG_BG_GUARD"  path="image\pic_360Guard.png"    />
-   <file name="IMG_BG_UCENTER"  path="image\pic_360ucenter.png"    />
-   <file name="IMG_BG_SHISHIHAOHU"  path="image\pic_shishibaohu.png"    />
+	<file name="IMG_BG_LIGHT_LEVEL"  path="image\bg_light-level_02.png"    />
+	<file name="IMG_BG_MAIN"  path="image\bg_02.png"    />
+	<file name="IMG_BG_SOFTMGR"  path="image\360SoftMgr.png"    />
+	<file name="IMG_BG_DESKTOP"  path="image\pic_360Desktop.png"    />
+	<file name="IMG_BG_DIAGNOSCAN"  path="image\pic_360DiagnoseScan.png"    />
+	<file name="IMG_BG_GUARD"  path="image\pic_360Guard.png"    />
+	<file name="IMG_BG_UCENTER"  path="image\pic_360ucenter.png"    />
+	<file name="IMG_BG_SHISHIHAOHU"  path="image\pic_shishibaohu.png"    />
     <file name="IMG_BG_TOOLBOX"  path="image\btn_bg.png"    />
     <file name="IMG_ICO_SOFTMGR"  path="image\360SoftMgr_icon.png"    />
     <file name="IMG_ICO_DESKTOP"  path="image\icon_360Desktop.png"    />
@@ -25,4 +25,4 @@
   <ICON>
     <file name="ICON_LOGO"  path="image\soui.ico"    />
   </ICON>
-    </resource>
+</resource>

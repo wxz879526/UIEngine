@@ -18,18 +18,6 @@ namespace SOUI
 
 	public:
 		void  SWitch(int nSelect);
-	private:
-		DWORD   m_dwPageCount;
-		ISkinObj *m_pSkin[MAX_VEIWPAGE_COUNT];
-		ISkinObj *m_pSkinLightLevel;
-
-		BOOL m_bWantMove;
-		int  m_iDownX;
-		BOOL m_bTimerMove;
-		int  m_iMoveWidth;
-		int  m_iSelected;
-		int m_iTimesMove;
-		int m_SelButton;
 
 	protected:
 		void OnPaint(IRenderTarget *pRT);
@@ -37,6 +25,7 @@ namespace SOUI
 		void OnLButtonUp(UINT nFlags, CPoint point);
 		void OnMouseMove(UINT nFlags,CPoint pt);
 		void OnTimer(char nIDEvent);
+
 	protected:
 		SOUI_MSG_MAP_BEGIN()	
 			MSG_WM_PAINT_EX(OnPaint)    //窗口绘制消息
@@ -55,5 +44,18 @@ namespace SOUI
 			ATTR_SKIN(L"skin5", m_pSkin[4], TRUE)
 			ATTR_SKIN(L"skin6", m_pSkin[5], TRUE)
 			SOUI_ATTRS_END()
+
+	private:
+		DWORD   m_dwPageCount;
+		ISkinObj *m_pSkin[MAX_VEIWPAGE_COUNT];
+		ISkinObj *m_pSkinLightLevel;
+
+		BOOL m_bWantMove;
+		int  m_iDownX;
+		BOOL m_bTimerMove;
+		int  m_iMoveWidth;
+		int  m_iSelected;
+		int m_iTimesMove;
+		int m_SelButton;
 	};
 }

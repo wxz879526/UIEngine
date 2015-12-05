@@ -33,8 +33,8 @@ namespace SOUI
 
 				rct.left = (i*rcWnd.Width() - (m_iSelected * rcWnd.Width())+m_iMoveWidth) ;
 				rct.top = rcWnd.top +2; 
-				rct.bottom = SkinSize.cy;
-				rct.right = rct.left + SkinSize.cx;
+				rct.bottom = rcWnd.Height();//SkinSize.cy;
+				rct.right = rct.left + rcWnd.Width();//SkinSize.cx;
 
 				pSkinObj->Draw(pRT,rct,0);
 
