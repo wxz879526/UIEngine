@@ -67,7 +67,6 @@ namespace SOUI
 			if(m_iTimesMove < 20)m_iTimesMove = 20;
 			SetTimer(TIMER_MOVE, 30);
 			m_bTimerMove = TRUE;
-			return;
 		}
 
 	}
